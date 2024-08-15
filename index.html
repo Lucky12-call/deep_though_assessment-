@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- font awesome link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- google font link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Sedan+SC&family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- google icons link  -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+
+    <title>Deep Thought</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- navbar section  -->
+    <nav class="nav-container">
+      <!-- right section -->
+      <div class="left-container">
+        <img
+          src="https://deepthought.education/assets/images/logo/logo.svg"
+          alt="logo"
+          class="logo1"
+        />
+      </div>
+
+      <!-- left section  -->
+      <div class="right-container">
+        <i class="fa-solid fa-house-chimney nav-icon"></i>
+        <i class="fa-solid fa-screwdriver-wrench nav-icon"></i>
+        <i class="fa-solid fa-bell nav-icon"></i>
+        <img src="images/girl-img.jpg" alt="girl-img" class="profile-pic" />
+        <i class="fa-solid fa-ellipsis-vertical"></i>
+      </div>
+    </nav>
+
+    <div class="hero-container">
+      <div class="heading-container">
+        <h1 id="heading-1"></h1>
+        <button>Submit task</button>
+      </div>
+
+      <!-- explore the world of management-->
+      <div class="explore-container">
+        <h2 id="task-title"></h2>
+        <p id="task-description"></p>
+      </div>
+
+      <!-- assets section 1 -->
+      <div class="assets-wrapper">
+        <!-- asset 1 -->
+        <div class="assets-container">
+          <div class="assets-heading">
+            <h4 id="asset-title1"></h4>
+            <span>i</span>
+          </div>
+
+          <div class="assets-content">
+            <span class="span-1">Description:</span>
+            <span id="asset-description1" class="span-2"></span>
+          </div>
+          <iframe
+            
+            id="asset-content1"
+            class="youtube-img"
+            aria-controls="controls"
+            frameborder="0"
+          ></iframe>
+        </div>
+
+        <!-- asset 2 -->
+        <div class="assets-container">
+          <div class="assets-heading">
+            <h4 id="asset-title2"></h4>
+            <span>i</span>
+          </div>
+
+          <div class="assets-content">
+            <span class="span-1">Description:</span>
+            <span id="asset-description2" class="span-2"> </span>
+          </div>
+
+          <div class="summary">
+            <i class="fa-solid fa-angle-up"></i>
+            <span class="threadA">Thread A</span>
+          </div>
+
+          <!-- sub thread  -->
+          <div class="sub-thread-wrapper">
+            <!-- left div  -->
+            <div class="sub-thread">
+              <p class="first-layer">Sub Thread 1</p>
+              <div class="second-layer">
+                <input type="text" placeholder="Enter Test here" />
+              </div>
+            </div>
+
+            <!-- right div  -->
+            <div class="sub-thread">
+              <p class="first-layer">Sub Interpretation 1</p>
+              <div class="second-layer">
+                <input type="text" placeholder="Enter Test here" />
+              </div>
+            </div>
+          </div>
+
+          <div class="select-categ-proces">
+            <div class="icons">
+              <span class="material-symbols-outlined"> lightbulb </span>
+              <span class="material-symbols-outlined"> chat </span>
+              <span class="material-symbols-outlined"> live_help </span>
+              <span class="material-symbols-outlined"> spa </span>
+            </div>
+
+            <div class="select-container">
+              <select name="select categ" id="select-categ">
+                <option value="select categ">select categ</option>
+                <option value="one">one</option>
+                <option value="two">two</option>
+                <option value="three">three</option>
+              </select>
+
+              <select name="select proces" id="select-proces">
+                <option value="select proces">select proces</option>
+                <option value="one">one</option>
+                <option value="two">two</option>
+                <option value="three">three</option>
+              </select>
+            </div>
+          </div>
+
+          <button class="sub-thread-btn"><span>+</span> Sub-thread</button>
+          <div class="thread-summary-wrapper">
+            <div class="thread-summary">
+              <p class="summary-first-layer">Summary for Thread A</p>
+              <div class="summary-second-layer">
+                <input type="text" placeholder="Enter Test here" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- assets section 2 -->
+      <div class="assets-wrapper">
+        <!-- asset 3 -->
+        <div class="assets-container">
+          <div class="assets-heading">
+            <h4 id="asset-title3"></h4>
+            <span>i</span>
+          </div>
+
+          <div class="assets-content">
+            <span class="span-1">Description:</span>
+            <span id="asset-description3" class="span-2"></span>
+          </div>
+          <hr />
+          <div class="title-input-container">
+            <label for="title">Title</label>
+            <input type="text" />
+          </div>
+          <div class="content-container">
+            <span>Content</span>
+            <div class="content-area">
+              <div class="menu">
+                <span>File</span><span>Edit</span><span>View</span
+                ><span>Insert</span><span>Format</span><span>Tools</span
+                ><span>Tables</span><span>Help</span>
+              </div>
+
+              <div class="content-icons">
+                <span class="material-symbols-outlined"> reply </span>
+                <span class="material-symbols-outlined rotated"> reply </span>
+                <span class="material-symbols-outlined"> zoom_out_map </span>
+                <span class="paragraph">Paragraph</span>
+                <span class="material-symbols-outlined"> more_horiz </span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- asset 4 -->
+        <div class="assets-container">
+          <div class="assets-heading">
+            <h4 id="asset-title4"></h4>
+            <span>i</span>
+          </div>
+
+          <div class="assets-content">
+            <span class="span-1">Description:</span>
+            <span id="asset-description4" class="span-2"></span>
+          </div>
+          <hr />
+          <div class="introduction-summery">
+            <i class="fa-solid fa-angle-up"></i>
+            <span>Introduction</span>
+          </div>
+
+          <div class="see-more-container">
+            <p>The 4SA Method , How to bring a idea into progress ?</p>
+            <span>See More</span>
+          </div>
+
+          <div class="example">
+            <i class="fa-solid fa-angle-up"></i>
+            <span>Thread A</span>
+          </div>
+
+          <div class="see-more-container">
+            <p>
+              How are you going to develop your stratergy ? Which method are you
+              going to use to develop a stratergy ? What if the project is
+              lengthy?
+            </p>
+            <span>See More</span>
+          </div>
+
+          <div class="example">
+            <span>Example 1</span>
+          </div>
+
+          <p class="para">
+            You have a concept , How will you put into progress?
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- bottom icons section  -->
+    <div class="bottom-icons-wrapper">
+      <div class="bottom-icons">
+        <p>
+          <span class="material-symbols-outlined"> question_mark </span>
+        </p>
+        <p>
+          <span class="material-symbols-outlined"> groups </span>
+        </p>
+        <p>
+          <span class="material-symbols-outlined"> calendar_clock </span>
+        </p>
+      </div>
+    </div>
+
+    <!-- sidebar section  -->
+    <div class="sidebar">
+      <h3>
+        Journey Board
+        <button id="sidebar-toggle">
+          <span class="material-symbols-outlined"> arrow_circle_right </span>
+        </button>
+      </h3>
+
+      <ul class="list">
+        <li class="heading-li">Explore the world of management</li>
+        <li class="list-li">Technical Project Management</li>
+        <li class="list-li">Threadbuild</li>
+        <li class="list-li">Structure your pointers</li>
+        <li class="list-li">4SA Method</li>
+      </ul>
+
+      <button class="one-btn">1</button>
+    </div>
+
+    <!-- notice board  -->
+    <div class="notice-board">
+      <h3>
+        <button class="close-btn">
+          <span class="material-symbols-outlined"> close </span>
+        </button>
+        <p>N</p>
+        <p>o</p>
+        <p>t</p>
+        <p>i</p>
+        <p>c</p>
+        <p>e</p>
+        <p><br /></p>
+        <p>B</p>
+        <p>o</p>
+        <p>a</p>
+        <p>r</p>
+        <p>d</p>
+      </h3>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,694 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* body {
+  min-width: 100vw;
+  height: 100vh;
+} */
+
+/* navbar css  */
+.nav-container {
+  max-width: 1440px;
+  height: 90px;
+  margin: auto;
+  padding: 0 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f0f0f0;
+  font-size: 2rem;
+  box-shadow: 3px 3px 5px rgb(161, 161, 161);
+}
+
+.logo1 {
+  height: 3rem;
+}
+
+.left-container {
+  display: flex;
+  align-items: center;
+}
+
+.left-container > p > span {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #0029ff;
+}
+
+.right-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-icon {
+  padding: 0.5rem;
+  border-radius: 50%;
+  background: #3683f0;
+  color: white;
+  font-size: 1rem;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  height: 2rem;
+  width: 2rem;
+}
+
+/* hero section css  */
+.hero-container {
+  width: 1066px;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.heading-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.heading-container > h1 {
+  font-family: Poppins;
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #0029ff;
+}
+
+.heading-container > button {
+  width: 121px;
+  height: 36px;
+  border-radius: 10px;
+  color: white;
+  background: #0029ff;
+}
+
+/* explore the world of management css  */
+.explore-container {
+  width: 100%;
+  height: 135px;
+  margin-top: 2.5rem;
+  padding: 1.5rem;
+  border-radius: 5px;
+  background: #e9ecef;
+}
+
+.explore-container > h2 {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+.explore-container > p {
+  padding-top: 1rem;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+/* assets section css  */
+.assets-wrapper {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5rem;
+}
+
+/* asset 1 css  */
+.assets-container {
+  width: 480px;
+  height: 580px;
+  border-radius: 15px;
+  border-bottom: 0.5px solid black;
+  box-shadow: 2px 2px 2px rgb(166, 166, 166), -2px -2px 2px rgb(166, 166, 166);
+}
+
+.assets-heading {
+  width: 480px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px 15px 0px 0px;
+  background: #000000;
+  color: white;
+  position: relative;
+}
+
+.assets-heading > span {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  color: black;
+  font-family: Poly;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  right: 2rem;
+  top: 1rem;
+}
+
+.assets-heading > h4 {
+  font-family: Poppins;
+  font-weight: 400;
+}
+
+.assets-content {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21.79px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  padding: 2rem 1rem;
+  margin-left: 1rem;
+}
+
+.assets-content > .span-1 {
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 22.5px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+.assets-content > .span-2 {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+.youtube-img {
+  width: 480px;
+  height: 280px;
+}
+
+/* asset 2 css  */
+.summary {
+  height: 40px;
+  border: 0.1px 0px 0px 0px;
+  border: 0.1px solid #00000066;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+  background: #feffc033;
+}
+
+.summary > i {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27.24px;
+}
+
+.threadA {
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27.24px;
+  text-align: left;
+}
+
+.sub-thread-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+}
+
+.sub-thread {
+  width: 199px;
+  height: 95px;
+  border-radius: 10px 0px 0px 0px;
+  position: relative;
+  box-shadow: 1px 3px 8px 0px #00000040;
+  border-radius: 10px;
+}
+
+.first-layer {
+  width: 199px;
+  height: 65px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 10px;
+  border: 0.1px 0px 0px 0px;
+  opacity: 0.5px;
+  box-shadow: 1px 3px 8px 0px #00000040;
+  background: #0000000d;
+}
+
+.second-layer {
+  width: 199px;
+  height: 70px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  border-radius: 10px;
+  background: #fafafa;
+}
+
+.second-layer > input {
+  outline: none;
+  width: 100%;
+  border: none;
+  padding: 5px;
+}
+
+.select-categ-proces {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin-top: 1.5rem;
+  padding: 0 2rem;
+  gap: 2rem;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.icons > span {
+  width: 20px;
+  height: 20px;
+  color: black;
+}
+
+.select-container {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.select-container > select {
+  width: 91px;
+  height: 32px;
+  border-radius: 5px;
+  font-weight: bolder;
+  font-size: 0.65rem;
+  box-shadow: 2px 2px 2px rgb(220, 220, 220);
+}
+
+.sub-thread-btn {
+  font-family: Roboto;
+  font-size: 15px;
+  padding: 0.3rem;
+  margin-left: 2rem;
+  margin-top: 2rem;
+  font-weight: 400;
+  line-height: 23.44px;
+  text-align: left;
+  background: #0029ff;
+  color: white;
+  border: none;
+  border-radius: 0.7rem;
+}
+
+.sub-thread-btn > span {
+  font-weight: 900;
+  font-size: 15px;
+}
+
+.thread-summary-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.thread-summary {
+  width: 425px;
+  height: 108px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.summary-first-layer {
+  width: 100%;
+  height: 65px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 10px;
+  border: 0.1px 0px 0px 0px;
+  opacity: 0.5px;
+  box-shadow: 1px 3px 8px 0px #00000040;
+  background: #0000000d;
+}
+
+.summary-second-layer {
+  width: 100%;
+  height: 70px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  border-radius: 10px;
+  background: #fafafa;
+}
+
+.summary-second-layer > input {
+  outline: none;
+  width: 100%;
+  border: none;
+  padding: 5px;
+}
+
+/* asset 3 css  */
+.title-input-container {
+  padding: 2rem;
+}
+
+.title-input-container > label {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21.79px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+.title-input-container > input {
+  width: 422px;
+  height: 43px;
+  border-radius: 5px 0px 0px 0px;
+  opacity: 0px;
+  box-shadow: -2px 2px 6px 0px #00000026;
+  outline: none;
+  border: none;
+}
+
+.content-container {
+  padding: 2rem;
+}
+
+.content-container > span {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21.79px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+.content-area {
+  width: 422px;
+  height: 82px;
+  border-radius: 5px 5px 0px 0px;
+  box-shadow: 0px 2px 10px 0px #0000002e;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.menu > span {
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+.rotated {
+  transform: rotateY(180deg);
+}
+
+.paragraph {
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  background: #ebebeb;
+}
+
+.content-icons {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding-left: 1rem;
+}
+
+/* asset 4  */
+.introduction-summery {
+  width: 420px;
+  height: 43px;
+  background: #f2f2f2;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-left: 2rem;
+  padding-left: 0.5rem;
+}
+
+.introduction-summery > span,
+i {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21.79px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+.see-more-container {
+  width: 420px;
+  height: 80px;
+  margin: 1.5rem 2rem;
+  position: relative;
+}
+
+.see-more-container > p {
+  font-family: Open Sans;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 19.07px;
+  letter-spacing: 0.02em;
+}
+
+.see-more-container > span {
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 600;
+  /* line-height: 19.07px; */
+  margin-top: 2rem;
+  letter-spacing: 0.02em;
+  text-align: right;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  cursor: pointer;
+}
+
+.example {
+  width: 394px;
+  height: 43px;
+  border: 1px solid black;
+  margin: 2rem;
+  margin-bottom: 1rem;
+
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27.24px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding-left: 2rem;
+}
+
+.para {
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 19.07px;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.bottom-icons-wrapper {
+  position: relative;
+}
+
+.bottom-icons {
+  text-align: end;
+  gap: 2rem;
+  position: absolute;
+  top: -8rem;
+  right: 4rem;
+}
+
+.bottom-icons > p > span {
+  font-size: 3rem;
+  background-color: #0029ff;
+  color: white;
+  padding: 1rem;
+  border-radius: 50%;
+  margin: 0.7rem;
+}
+
+/* sidebar css  */
+.sidebar {
+  box-shadow: 0px 1px 1px 0px #00000040;
+  width: 392px;
+  height: 692px;
+  border-radius: 20px;
+  border: 1px solid black;
+  background-color: white;
+  position: absolute;
+  top: 6rem;
+  left: -14rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.collapsed {
+  left: 0;
+}
+
+.rotated-btn {
+  transform: rotateY(180deg);
+}
+
+.normal-btn {
+  transform: rotateY(-180deg);
+}
+
+.sidebar > h3 {
+  background: #000000;
+  border-radius: 20px;
+  border-radius: 0px 20px 0px 0px;
+  width: 392px;
+  height: 50px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem;
+  font-family: Poppins;
+}
+
+.sidebar > h3 > button {
+  font-size: 2rem;
+
+  background: transparent;
+  color: white;
+}
+
+.sidebar > h3 > button > span {
+  font-size: 2rem;
+  background: transparent;
+  color: white;
+}
+
+.list {
+  display: none;
+}
+
+.list-hide {
+  padding-left: 3rem;
+  display: block;
+  position: relative;
+}
+
+.heading-li {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  padding: 1.5rem 0;
+}
+
+.list-li {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  padding: 0 1rem;
+}
+
+.one-btn {
+  height: 4rem;
+  width: 4rem;
+  border: 2px solid #3683f0;
+  border-radius: 20px;
+  font-size: 2rem;
+  padding: 1rem;
+  color: #3683f0;
+  position: absolute;
+  right: 2rem;
+  top: 5rem;
+}
+
+.one-btn-hide {
+  display: none;
+}
+
+/* notice board css  */
+.notice-board {
+  width: 125px;
+  height: 394px;
+  border-radius: 30px 0px 0px 30px;
+  box-shadow: 4px 4px 4px 0px #00000040, -4px -4px 4px 0px #00000040;
+  position: absolute;
+  top: 7rem;
+  right: 0;
+}
+
+.notice-board > h3 {
+  width: 3rem;
+  height: 394px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  border-radius: 30px 0px 0px 30px;
+  text-align: left;
+  background: #000000;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.close-btn {
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+.close-btn > span {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: white;
+} 
